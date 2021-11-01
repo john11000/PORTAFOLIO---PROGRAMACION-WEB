@@ -17,7 +17,9 @@ const CaracateresPermitidos = [
   "+",
   ".",
   "%",
-  "**",
+  "**2",
+  "(",
+  ")"
 ];
 const Borradores = ["C", "X", "CE"];
 
