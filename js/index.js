@@ -57,6 +57,7 @@ $(".btn").click((e) => {
   if (e.target.value == "=") {
     try {
       $(".resultado").text(eval($(".operacion").html()));
+      $(".operacion").html($(".resultado").text())
     } catch (e) {
       $(".resultado").text("Error");
     }
