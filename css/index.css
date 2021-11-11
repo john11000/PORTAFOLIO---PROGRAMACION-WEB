@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: blue;
+    text-transform: uppercase;
+}
+
+
+ul{
+    max-height: 100px;
+    overflow: auto;
+    list-style-position: inside;
+    text-align: left;
+    padding-left: 10px;
+    list-style-type: disc;
+}
+ul li {
+    margin-top: 5px;
+}

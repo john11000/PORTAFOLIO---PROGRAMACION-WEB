@@ -1,0 +1,138 @@
+body {
+	margin: 0px;
+}
+
+/* cabezote */
+header {
+	background-color: yellow;
+	font-family: Arial;
+	padding: 0px;
+	margin: 0px;
+}
+header h1 {
+	margin: 0px;
+	padding: 10px;
+	font-size: 250%;
+	text-align: middle;
+}
+
+/* menu horizontal */
+.menu_hor {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: rgb(14, 212, 14);
+	
+}
+
+.menu_hor li:hover{
+	background-color: rgb(33, 235, 33);
+}
+.menu_hor li {
+ 
+  border-right: 1px solid yellow;
+}
+.menu_hor li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+.menu_hor li:last-child {
+  border-right: none;
+}
+
+/* maquetación productos y banners */
+section { 
+	float: none;
+
+}
+aside {
+text-align: center;
+
+}
+aside img {
+	width: 100%;
+}
+article {
+	clear: both;
+	/*border-bottom: dashed gray 1px;*/
+}
+article img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.segundoMenu{
+	display: none;
+}
+/* pie de página */
+footer {
+	clear: both;
+	background-color: yellow;
+	margin: 0px;
+	padding: 5px;
+	border-top: 2px solid black;
+	font-family: Arial;
+}
+
+/* 
+@media (min-width: 480px) {
+
+	section { 
+		width: 73%; 
+		float: left;
+		margin-left: 10px;	
+	}
+	.menu_hor li {
+		float: left;
+	}
+	aside {
+		width: 23%;
+		float: left;
+		margin-top: 4px;
+	}
+	aside img {
+		width: 100%;
+	}
+
+	
+}
+
+@media (min-width: 800px) {
+
+	section { 
+		width: 73%; 
+		float: left;
+		margin-left: 10px;	
+		display: grid;
+		grid-template-columns: 30% 70%;
+	}
+	aside {
+		width: 23%;
+		float: left;
+		margin-top: 4px;
+	}
+	aside img {
+		width: 100%;
+	}
+	nav{
+		display: none;
+	}
+
+	.segundoMenu{
+		display: grid;
+		margin: 5px auto;
+		width: 80%;
+	}
+
+	.menu_hor li {
+		float: none;
+	}
+
+	
+} */
