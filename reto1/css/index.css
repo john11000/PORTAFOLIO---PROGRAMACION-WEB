@@ -6,7 +6,8 @@ article{
 
 .nav-item:hover{
     animation: aparecer 1s;
-    border-bottom: 1px solid #0d6efd;;
+    border-bottom: 1px solid #0d6efd;
+    cursor: pointer;
 
 }
 
@@ -26,6 +27,8 @@ strong,h4{
     color: #0d6efd;
     border: 1px solid #0d6efd;
     animation: aparecer 1s;
+    cursor: pointer;
+
 }
 
 
@@ -71,6 +74,8 @@ strong,h4{
     background: #f3f3f3;
     color:#0d6efd ;
     animation: aparecer 1s;
+    cursor: pointer;
+
 }
 .vjs-has-started .vjs-control-bar{
     background: #0d6efd;
