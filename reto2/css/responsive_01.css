@@ -22,7 +22,7 @@ nav{
   background-color: rgb(14, 212, 14);
 
 }
-@media (min-width: 500px) {
+@media (min-width: 480px) {
   .content {
     grid-column: col-start / span 9;
   }
@@ -37,7 +37,7 @@ nav{
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .main-nav {
     grid-column: col-start / span 2;
   }
