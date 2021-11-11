@@ -1,0 +1,85 @@
+article{
+    margin: 2rem auto;
+}
+
+
+
+.nav-item:hover{
+    animation: aparecer 1s;
+    border-bottom: 1px solid #0d6efd;;
+
+}
+
+.section{
+    margin-top: 100px;
+}
+strong,h4{ 
+    color: #0d6efd;
+}
+
+.accordion-button{
+    background: #0d6efd;
+    color: #ffff;
+}
+.accordion-button:hover{
+    background: #ffff;
+    color: #0d6efd;
+    border: 1px solid #0d6efd;
+    animation: aparecer 1s;
+}
+
+
+*::-webkit-scrollbar{
+    background: #0d6efd;
+    width: 6px;
+    opacity: 0.1;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #e1e1e1c2;
+    border-radius: 20px;
+    
+    
+}
+::-webkit-scrollbar-thumb {
+    background: #0d6dfda8;
+    
+    border-radius: 20px;
+}
+
+
+
+/*video personalizado*/
+/* .vjs-icon-play:before, .video-js .vjs-play-control .vjs-icon-placeholder:before, .video-js .vjs-big-play-button .vjs-icon-placeholder:before{
+    background: #0d6efd;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+} */
+
+.video-js{
+    border-radius: 8px;
+    
+}
+.video-js .vjs-big-play-button{
+    background: #0d6efd;;
+    
+}
+
+.video-js:hover .vjs-big-play-button{
+    background: #f3f3f3;
+    color:#0d6efd ;
+    animation: aparecer 1s;
+}
+.vjs-has-started .vjs-control-bar{
+    background: #0d6efd;
+}
+
+
+@keyframes aparecer {
+    
+    from { opacity: 0.2; background: #0d6efd; color: rgb(255, 255, 255); border-radius: 25px;}
+    to { opacity: 1}
+    
+}

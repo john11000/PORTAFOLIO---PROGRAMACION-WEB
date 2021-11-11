@@ -1,0 +1,75 @@
+.btn {
+    background: rgb(0, 0, 0);
+    border-radius: 50px;
+    margin: 3px auto;
+
+
+}
+
+.pantalla,
+.calculadora {
+    border-radius: 20px;
+}
+
+.calculadora {
+    box-shadow: 1px 1px 55px white;
+    opacity: .5;
+    overflow: hidden;
+    
+}
+
+.calculadora:hover {
+    opacity: 1;
+}
+
+body {
+    background-image: url(https://24.media.tumblr.com/baeb3be0fb41e15620d9ddfc355c9746/tumblr_mhrkx6PHUV1s4hh1ao1_500.gif);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.operacion {
+    height: 2rem;
+    display: block;
+    overflow: auto;
+    text-justify: end;
+}
+.navbar {
+    opacity: .2;
+}
+.navbar:hover {
+    opacity: 1;
+}
+
+.operacion::-webkit-scrollbar {
+    display: none;
+}
+
+.contenedor {
+margin: auto;
+display: table;
+}
+
+h1 { 
+position: relative; 
+float: left;
+color: #fff;
+font-size: 2.5em;
+}
+
+h1 span {
+position:absolute;
+right:0;
+width:0;
+
+border-left: 1px solid #000;
+animation: escribir 5s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+from { width: 100% }
+to { width:0 }
+}
+
