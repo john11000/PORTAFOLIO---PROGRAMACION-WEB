@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Reto 3 - Diseño responsive pero con bootstrap</title>
+
+    <link rel="shortcut icon" href="/logo.png" type="image/x-icon">
+
+</head>
+
+<style>
+*{
+    padding: 0;
+    margin: 0;
+}
+a:hover{
+  background-color: rgb(7, 250, 7);
+
+}
+</style>
+
+<body class="bg-dark">
+    <h2 class="text-center fs-4 text-white text-uppercase my-2">Diseño responsive pero con <strong style="color: purple;">bootstrap</strong> <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="purple" class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+        <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
+        <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z"/>
+      </svg><br><span class="text-muted fs-6 text-center">jhon anderson</span></h2>
+      
+
+    <div class="container  border border-white rounded bg-white  shadow">
+        <div class="row">
+            <header class=" col-12 p-3 bg-warning  p-3">
+                <h1 class="text-center text-white text-uppercase py-3">Nombre de la Empresa</h1>
+            </header>
+            <nav class="text-start g-0 mx-0 col-12  col-lg-2" style="background-color: rgb(14, 212, 14);">
+                <ul class="row col-12 g-0 m-0 text-white " style="list-style: none;background-color: rgb(14, 212, 14);">
+                    <li class="my-1 g-0 col-md-4 col-lg-12"><a class="btn text-white  text-center  w-100 d-inline-block  col-10  mx-auto" href="index.html">Inicio</a></li>
+                    <li class="my-1 col-md-4 col-lg-12"><a class="btn  text-white text-center w-100  d-inline-block  col-10 " href="pedidos.html">Pedidos</a></li>
+                    <li class="my-1 col-md-4 col-lg-12"><a class="btn  text-white text-center w-100  d-inline-block  col-10" href="contactenos.html">Contactenos</a></li>
+                </ul>
+            </nav>
+
+            <section class="container col-12 col-md-9 col-lg-8 my-2 row">
+                <article class="row">
+                    <div class="col-3 ">
+                        <img src="../reto2/images/producto_01.jpg"  />
+                    </div>
+                    <div class="col-9">
+                        <h3>Nombre del producto 1</h3>
+                        <p class="fs-sm-6">
+                            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+                            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+                            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+                            mollis pretium. Integer tincidunt. Cras dapibus.
+                        </p>
+                    </div>
+                 
+                </article>
+
+                <article class="row">
+                    <div class="col-3 ">
+                        <img src="../reto2/images/producto_02.jpg"  />
+                    </div>
+                    <div class="col-9">
+                        <h3>Nombre del producto 2</h3>
+                        <p>
+                            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+                            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+                            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+                            mollis pretium. Integer tincidunt. Cras dapibus.
+                        </p>
+                    </div>
+                 
+                </article>
+
+         
+                <article class="row">
+                    <div class="col-3 ">
+                        <img src="../reto2/images/producto_03.jpg"  />
+                    </div>
+                    <div class="col-9 ">
+                        <h3>Nombre del producto 3</h3>
+                        <p>
+                            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+                            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+                            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+                            mollis pretium. Integer tincidunt. Cras dapibus.
+                        </p>
+                    </div>
+                 
+                </article>
+              
+            </section>
+
+            <aside class="container col-12 col-md-3 col-lg-2 text-center">
+                <img class="col-8 my-2 col-md-12" src="../reto2/images/banner_01.png" />
+                <br />
+                <img class="col-8 my-2 col-md-12" src="../reto2/images/banner_02.png" />
+                <br />
+                <img class="col-8 my-2 col-md-12" src="../reto2/images/banner_03.png" />
+                <br />
+            </aside>
+
+            <footer class="container bg-dark text-white py-2  text-center p-3">
+                <h2 class="fs-6">Nombre de la Empresa</h2>
+                <h3 class="fs-6">Dirección: Carrera 01 # 01 - 01</h3>
+                <h3 class="fs-6">Teléfonos: 8770000 315-0101-1101</h3>
+            </footer>
+
+        </div>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+
+</body>
+
+</html>

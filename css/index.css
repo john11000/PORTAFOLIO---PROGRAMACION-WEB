@@ -17,6 +17,32 @@ ul{
     padding-left: 10px;
     list-style-type: disc;
 }
+
+.tecnoUsadas{
+    margin-right: 5px;
+}
+svg{
+    margin: 2px;
+}
 ul li {
     margin-top: 5px;
+}
+
+*::-webkit-scrollbar{
+    background: #0d6efd;
+    width: 6px;
+    opacity: 0.1;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #e1e1e1c2;
+    border-radius: 20px;
+    
+    
+}
+::-webkit-scrollbar-thumb {
+    background: #02060ca8;
+    
+    border-radius: 20px;
 }

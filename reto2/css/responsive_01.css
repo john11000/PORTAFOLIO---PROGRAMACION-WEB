@@ -5,6 +5,8 @@
     grid-template-columns: repeat(12, [col-start] 1fr);
     grid-gap: 2px;
 }
+
+
 .wrapper > * {
     border: 2px solid #f08c00;
     
